@@ -9,7 +9,7 @@ module TD::Types
   # @attr width [Integer] Width of the animation; may be replaced by the server.
   # @attr height [Integer] Height of the animation; may be replaced by the server.
   # @attr caption [TD::Types::FormattedText] Animation caption; pass null to use an empty caption;
-  #   0-GetOption("message_caption_length_max") characters.
+  #   0-getOption("message_caption_length_max") characters.
   class InputMessageContent::Animation < InputMessageContent
     attribute :animation, TD::Types::InputFile
     attribute :thumbnail, TD::Types::InputThumbnail

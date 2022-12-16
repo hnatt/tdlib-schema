@@ -41,12 +41,19 @@ module TD::Types
       screenshot_taken
       chat_set_theme
       chat_set_ttl
+      forum_topic_created
+      forum_topic_edited
+      forum_topic_is_closed_toggled
+      forum_topic_is_hidden_toggled
       custom_service_action
       game_score
       payment_successful
       payment_successful_bot
+      gifted_premium
       contact_registered
       website_connected
+      web_app_data_sent
+      web_app_data_received
       passport_data_sent
       passport_data_received
       proximity_alert_triggered

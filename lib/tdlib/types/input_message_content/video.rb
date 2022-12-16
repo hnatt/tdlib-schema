@@ -9,7 +9,7 @@ module TD::Types
   # @attr height [Integer] Video height.
   # @attr supports_streaming [Boolean] True, if the video is supposed to be streamed.
   # @attr caption [TD::Types::FormattedText] Video caption; pass null to use an empty caption;
-  #   0-GetOption("message_caption_length_max") characters.
+  #   0-getOption("message_caption_length_max") characters.
   # @attr ttl [Integer] Video TTL (Time To Live), in seconds (0-60).
   #   A non-zero TTL can be specified only in private chats.
   class InputMessageContent::Video < InputMessageContent

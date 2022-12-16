@@ -6,6 +6,8 @@ module TD::Types
       sms
       call
       flash_call
+      missed_call
+      fragment
     ].each do |type|
       autoload TD::Types.camelize(type), "tdlib/types/authentication_code_type/#{type}"
     end
